@@ -1,8 +1,10 @@
 <script>
 import FlexiblePanel from './FlexiblePanel.svelte';
+import SideBar from './SideBar.svelte';
 </script>
 
 <main class="flex flex-col flex-1 p-4">
+    <SideBar />
     <section id="introPage" class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
         
         <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
