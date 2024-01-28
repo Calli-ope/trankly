@@ -37,14 +37,11 @@ import Panel from './Panel.svelte';
 
   <section id="öbb">
     <div class="grid grid-cols-2 gap-4">
-      <Panel title="ÖBB" content="Content for Disclaimer 1. und was passiert in diesem Laden dann? und wenn der noch breiter wird wie deine Mutter andauernd?"/>
-      <img src="pictures/example.jpg" alt="wtf" class=" w-20 h-auto rounded-lg shadow-md"/>
-      <img src="./pictures/example.jpg" class="h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30" alt="" />
+      <Panel title="ÖBB" content="Content for Disclaimer 1. und was passiert in diesem Laden dann? und wenn der noch breiter wird wie deine Mutter andauernd penis penis penis?"/>
+      <img src="/example.jpg" class="h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="" />
       <Panel title="Disclaimer 3" content="Content for Disclaimer 3."/>
       <Panel title="Disclaimer 4" content="Content for Disclaimer 4."/>
     </div>
-    <img src="./pictures/example.jpg" class="h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30" alt="" />
-
   </section>
 
   <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
