@@ -24,7 +24,7 @@ import Panel from './Panel.svelte';
     </div>
   </section>
 
-  <section class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+  <section class="max-w-md mx-auto bg-slate-950 rounded-xl shadow-md overflow-hidden md:max-w-2xl transition-transform transform hover:scale-105">
     <div class="md:flex">
       <div class="p-8">
         <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold"><i class="fa-solid fa-exclamation fa-bounce mr-1" style="color: #f84407;"></i>Disclaimer</div>
@@ -35,12 +35,17 @@ import Panel from './Panel.svelte';
 
   <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
 
-  <div class="grid grid-cols-2 gap-4">
-    <Panel title="Disclaimer 1" content="Content for Disclaimer 1." />
-    <Panel title="Disclaimer 2" content="Content for Disclaimer 2 kann der Pimmel hier auch breiter werden?." />
-    <Panel title="Disclaimer 3" content="Content for Disclaimer 3." />
-    <Panel title="Disclaimer 4" content="Content for Disclaimer 4." />
-  </div>
+  <section id="öbb">
+    <div class="grid grid-cols-2 gap-4">
+      <Panel title="ÖBB" content="Content for Disclaimer 1. und was passiert in diesem Laden dann? und wenn der noch breiter wird wie deine Mutter andauernd?"/>
+      <img src="pictures/example.jpg" alt="wtf" class=" w-20 h-auto rounded-lg shadow-md"/>
+      <img src="./pictures/example.jpg" class="h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30" alt="" />
+      <Panel title="Disclaimer 3" content="Content for Disclaimer 3."/>
+      <Panel title="Disclaimer 4" content="Content for Disclaimer 4."/>
+    </div>
+    <img src="./pictures/example.jpg" class="h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30" alt="" />
+
+  </section>
 
   <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
 </main>
