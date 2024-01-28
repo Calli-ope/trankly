@@ -4,9 +4,29 @@ import SideBar from './SideBar.svelte';
 </script>
 
 <main class="flex flex-col flex-1 p-4">
-    <SideBar />
-    <section id="introPage" class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
-        
+  <SideBar />
+  <section id="introPage" class="flex flex-col items-center justify-center py-8 sm:py-14">
+    <div class="flex flex-col items-center gap-10 md:gap-8 lg:gap-10 leading-loose">
+      <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl text-center">
+        Ranking der besten <span class="hover:text-euBlue">europäischen</span> <br/> Hochgeschwindigkeitszüge
+      </h2>
+      <div class="text-2xl sm:text-lg md:text-xl text-center leading-relaxed">
+        In diesem Ranking werde ich die besten Hochgeschwindigkeitszüge nach den Kriterien <br/>
+        <p class="text-left">
+        <span class="hover:text-teal-400">Komfort,<br/></span>
+        <span class="hover:text-teal-400">Geschwindigkeit,<br/></span>
+        <span class="hover:text-teal-400">Ausstattung,<br/></span>
+        <span class="hover:text-teal-400">& Service<br/></span>
+        </p>
+        bewerten.
+      </div>
+    </div>
+  </section>
+
+  
+
+
+    <!--<section>
         <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
             <div class="md:flex">
               <div class="md:shrink-0">
@@ -20,8 +40,8 @@ import SideBar from './SideBar.svelte';
             </div>
         </div>
         <FlexiblePanel title="My Flexible Panel">
-            <!-- Additional content can be added here if needed -->
+             Additional content can be added here if needed
         </FlexiblePanel>
 
-    </section>
+    </section> -->
 </main>
