@@ -13,7 +13,7 @@
        
         <ul class="space-y-2 font-medium">
             <li>
-                <a href="öbb" class="flex items-center p-2 rounded-lg text-white hover:bg-gray-700 hover:text-violet-300">
+                <a href="#öbb" class="flex items-center p-2 rounded-lg text-white hover:bg-gray-700 hover:text-violet-300">
                     <span class="ms-3 text-xl">1. ÖBB</span>
                 </a>
             </li>

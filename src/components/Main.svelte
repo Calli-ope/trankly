@@ -1,6 +1,6 @@
 <script>
-import FlexiblePanel from './FlexiblePanel.svelte';
 import SideBar from './SideBar.svelte';
+import Panel from './Panel.svelte';
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -33,13 +33,13 @@ import SideBar from './SideBar.svelte';
     </div>
   </section>
   <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
-  <section id="öbb" class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl py-8 sm:py-14">
-    <div class="md:flex">
-      <div class="p-8">
-        <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold"><i class="fa-solid fa-exclamation fa-bounce mr-1" style="color: #f84407;"></i>Disclaimer</div>
-          <p class="mt-2 text-slate-500">Das Ranking basiert ausschließlich auf eigenen Erfahrungen und erhebt keinen Anspruch auf Vollständigkeit.</p>
-      </div>
-    </div>
-  </section>
+  <div class="flex space-x-4">
+    <section id="öbb">
+      <Panel title="Disclaimer" content="Das Ranking basiert ausschließlich auf eigenen Erfahrungen und erhebt keinen Anspruch auf Vollständigkeit." />
+      <Panel title="Another Disclaimer" content="Another set of information here." />
+    </section>
+  </div>
+
+    
   <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
 </main>
