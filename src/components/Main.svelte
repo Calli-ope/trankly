@@ -32,14 +32,15 @@ import Panel from './Panel.svelte';
       </div>
     </div>
   </section>
+
   <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
-  <div class="flex space-x-4">
-    <section id="öbb">
-      <Panel title="Disclaimer" content="Das Ranking basiert ausschließlich auf eigenen Erfahrungen und erhebt keinen Anspruch auf Vollständigkeit." />
-      <Panel title="Another Disclaimer" content="Another set of information here." />
-    </section>
+
+  <div class="grid grid-cols-2 gap-4">
+    <Panel title="Disclaimer 1" content="Content for Disclaimer 1." />
+    <Panel title="Disclaimer 2" content="Content for Disclaimer 2 kann der Pimmel hier auch breiter werden?." />
+    <Panel title="Disclaimer 3" content="Content for Disclaimer 3." />
+    <Panel title="Disclaimer 4" content="Content for Disclaimer 4." />
   </div>
 
-    
   <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
 </main>
