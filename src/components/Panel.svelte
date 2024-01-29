@@ -13,7 +13,7 @@
     <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl py-8 sm:py-14">
         <div class="md:flex">
             <div class="p-8">
-                <div class="uppercase tracking-wide text-indigo-500 text-2xl">
+                <div class="uppercase tracking-wide text-slate-950 font-semibold text-2xl">
                     {title}
                 </div>
                 <p class="mt-2 text-slate-500">{content}</p>

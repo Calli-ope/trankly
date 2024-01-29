@@ -52,12 +52,19 @@ function toggleSidebar() {
 
     <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
 
-    <section id="öbb">
+    <section id="tgv">
       <div class="grid grid-cols-2 gap-4">
-        <Panel title="ÖBB" content="Content for Disclaimer 1. und was passiert in diesem Laden dann? und wenn der noch breiter wird wie deine Mutter andauernd penis penis penis?"/>
-        <img src="/example.jpg" class="ml-10 h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="" />
-        <Panel title="Disclaimer 3" content="Content for Disclaimer 3."/>
-        <Panel title="Disclaimer 4" content="Content for Disclaimer 4."/>
+        <Panel title="1. TGV" content="Der von der SNCF (Société nationale des chemins de fer français) betriebene TGV (französisch: train á grande vitesse) landet auf dem 1. Platz des Rankings, da er mich insgesamt am meisten überzeugt.
+        Das Hochgeschwindigkeitszugsystem in Frankreich wurde 1981 eingeführt zeichnet sich durch sehr hohe Geschwindigkeiten bis zu 320 km/h aus.
+        Meistens werden diese auf extra für den TGV errichteten Hochgeschwindigkeitsstrecken erreicht.
+        Die Züge sind aerodynamisch gestaltet und werden durch elektrische Triebköpfe angetrieben."/>
+        <div class="grid justify-center">
+          <img src="/Logo-SNCF.png" class="ml-10 h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="Logo SNCF" />
+          <img src="/Logo_TGV_inOui.png" class="ml-10 h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="Logo TVG inOiu" />
+        </div>
+        <img src="/Logo-SNCF.png" class="ml-10 h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="Logo SNCF" />
+        <Panel title="" content="Das TGV-Netzwerk verbindet verschiedene Städte und Regionen in Frankreich und erstreckt sich sogar über die Grenzen hinaus nach Belgien, Deutschland, der Schweiz, Luxemburg, Spanien und Italien.
+        Die Hochgeschwindigkeitszüge bieten Passagieren nicht nur eine effiziente Möglichkeit, große Entfernungen zurückzulegen, sondern auch Komfort und Annehmlichkeiten an Bord."/>
       </div>
     </section>
 
