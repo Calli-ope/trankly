@@ -55,7 +55,7 @@ function toggleSidebar() {
     <section id="öbb">
       <div class="grid grid-cols-2 gap-4">
         <Panel title="ÖBB" content="Content for Disclaimer 1. und was passiert in diesem Laden dann? und wenn der noch breiter wird wie deine Mutter andauernd penis penis penis?"/>
-        <img src="/example.jpg" class="h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="" />
+        <img src="/example.jpg" class="ml-10 h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="" />
         <Panel title="Disclaimer 3" content="Content for Disclaimer 3."/>
         <Panel title="Disclaimer 4" content="Content for Disclaimer 4."/>
       </div>
