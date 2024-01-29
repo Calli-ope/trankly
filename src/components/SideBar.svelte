@@ -47,17 +47,17 @@
                 </a>
             </li>
             <li>
-                <a href="sbb" class="flex items-center p-2 py-3 rounded-lg text-white hover:bg-gray-700 hover:text-violet-300">
+                <a href="#sbb" class="flex items-center p-2 py-3 rounded-lg text-white hover:bg-gray-700 hover:text-violet-300">
                     <span class="ms-3 text-xl">3. Giruno</span>
                 </a>
             </li>
             <li>
-                <a href="frecce" class="flex items-center p-2 py-3 rounded-lg text-white hover:bg-gray-700 hover:text-violet-300">
+                <a href="#frecce" class="flex items-center p-2 py-3 rounded-lg text-white hover:bg-gray-700 hover:text-violet-300">
                     <span class="ms-3 text-xl">4. Frecciarossa</span>
                 </a>
             </li>
             <li>
-                <a href="ice" class="flex items-center p-2 py-3 rounded-lg text-white hover:bg-gray-700 hover:text-violet-300">
+                <a href="#ice" class="flex items-center p-2 py-3 rounded-lg text-white hover:bg-gray-700 hover:text-violet-300">
                     <span class="ms-3 text-xl">5. ICE</span>
                 </a>
             </li>

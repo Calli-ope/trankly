@@ -11,11 +11,11 @@ function toggleSidebar() {
 
 <style>
   .main-content {
-    margin-left: 200px; /* Adjust this value to match the width of your sidebar */
+    margin-left: 200px;
   }
 
   .main-content.open {
-    margin-left: 200px; /* Adjust this value to match the width of your sidebar */
+    margin-left: 200px;
   }
 </style>
 
@@ -28,14 +28,15 @@ function toggleSidebar() {
           Ranking der besten <span class="hover:text-euBlue">europäischen</span> <br/> Hochgeschwindigkeitszüge
         </h2>
         <div class="gap-1 flex flex-col items-center">
-        <p class="text-2xl sm:text-lg md:text-xl text-center">
+        <p class="text-3xl font-semibold sm:text-lg md:text-xl text-center">
           In diesem Ranking werde ich die besten Hochgeschwindigkeitszüge <i class="fa-solid fa-train fa-beat-fade fa-lg" style="color: #74C0FC;"></i> nach den folgenden Kriterien bewerten:
         </p>
-        <ul class="text-left list-disc text-xl">
+        <ul class="text-left list-disc text-xl italic">
           <li class="hover:text-teal-400">Komfort<br/></li>
-          <li class="hover:text-teal-400">Geschwindigkeit<br/></li>
           <li class="hover:text-teal-400">Ausstattung<br/></li>
-          <li class="hover:text-teal-400">& Service<br/></li>
+          <li class="hover:text-teal-400">Geschwindigkeit<br/></li>
+          <li class="hover:text-teal-400">Anzahl der Strecken<br/></li>
+          <li class="hover:text-teal-400">Service<br/></li>
         </ul>
         </div>
       </div>
@@ -50,24 +51,67 @@ function toggleSidebar() {
       </div>
     </section>
 
-    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
-
-    <section id="tgv">
-      <div class="grid grid-cols-2 gap-4">
-        <Panel title="1. TGV" content="Der von der SNCF (Société nationale des chemins de fer français) betriebene TGV (französisch: train á grande vitesse) landet auf dem 1. Platz des Rankings, da er mich insgesamt am meisten überzeugt.
-        Das Hochgeschwindigkeitszugsystem in Frankreich wurde 1981 eingeführt zeichnet sich durch sehr hohe Geschwindigkeiten bis zu 320 km/h aus.
-        Meistens werden diese auf extra für den TGV errichteten Hochgeschwindigkeitsstrecken erreicht.
-        Die Züge sind aerodynamisch gestaltet und werden durch elektrische Triebköpfe angetrieben."/>
+    <section id="tgv" class="flex flex-col items-center justify-center">
+      <hr class="w-48 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700">
+      <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
+        <Panel title="1. TGV" content="Der von der französischen Eisenbahngesellschaft SNCF betriebene TGV (französisch: train á grande vitesse) landet auf dem 1. Platz des Rankings, da er mich insgesamt am meisten überzeugt.
+        Das Hochgeschwindigkeitszugsystem in Frankreich wurde 1981 eingeführt zeichnet sich durch sehr hohe Geschwindigkeiten mit bis zu 320 km/h aus.
+        Diese werden auf extra für den TGV errichteten Hochgeschwindigkeitsstrecken erreicht, die alle großen Städte wie Paris oder Lyon miteinander verbinden."/>
         <div class="grid justify-center">
-          <img src="/Logo-SNCF.png" class="ml-10 h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="Logo SNCF" />
-          <img src="/Logo_TGV_inOui.png" class="ml-10 h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="Logo TVG inOiu" />
+          <img src="/Logo-SNCF.png" class="ml-10 h-auto max-w-sm rounded-lg shadow-none py-2" alt="Logo SNCF" />
+          <img src="/Logo_TGV_inOui.png" class="ml-10 h-auto max-w-sm rounded-lg shadow-none py-2" alt="Logo TVG inOiu" />
         </div>
-        <img src="/Logo-SNCF.png" class="ml-10 h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="Logo SNCF" />
-        <Panel title="" content="Das TGV-Netzwerk verbindet verschiedene Städte und Regionen in Frankreich und erstreckt sich sogar über die Grenzen hinaus nach Belgien, Deutschland, der Schweiz, Luxemburg, Spanien und Italien.
-        Die Hochgeschwindigkeitszüge bieten Passagieren nicht nur eine effiziente Möglichkeit, große Entfernungen zurückzulegen, sondern auch Komfort und Annehmlichkeiten an Bord."/>
+        <img src="/tgv.jpg" class="ml-20 h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="Außenansicht TGV" />
+        <Panel title="" content="Die Züge sind aerodynamisch gestaltet und werden durch elektrische Triebköpfe angetrieben. Das TGV-Netzwerk verbindet Städte und Regionen in Frankreich und erstreckt darüber hinaus sogar über die Grenzen nach Belgien, Deutschland, der Schweiz, Luxemburg, Spanien und Italien."/>
+        <Panel title="" content="Die Hochgeschwindigkeitszüge bieten Passagieren nicht nur eine effiziente Möglichkeit, große Entfernungen zurückzulegen, sondern auch Komfort und Annehmlichkeiten an Bord. Die Sitze sind sehr bequem und bieten viel Platz für die Beine. Die Kopfstützen sind verstellbar und die Armlehnen lassen sich hochklappen."/>
+        <img src="/tgv2.jpg" class="ml-20 h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="Innenraum TGV" />
       </div>
+      <a href="https://www.sncf-connect.com/de-de/tgv-inoui-quer-europa" target="_blank" class="text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 mt-7">
+        <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-500"/>
+        <h4 class="relative z-9">Weitere Informationen zum Zug &rarr;</h4>
+      </a>
     </section>
 
-    <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
+    <section id="eurostar" class="flex flex-col items-center justify-center">
+      <hr class="w-48 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700">
+      <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
+        <Panel title="1. TGV" content="Der von der französischen Eisenbahngesellschaft SNCF betriebene TGV (französisch: train á grande vitesse) landet auf dem 1. Platz des Rankings, da er mich insgesamt am meisten überzeugt.
+        Das Hochgeschwindigkeitszugsystem in Frankreich wurde 1981 eingeführt zeichnet sich durch sehr hohe Geschwindigkeiten mit bis zu 320 km/h aus.
+        Diese werden auf extra für den TGV errichteten Hochgeschwindigkeitsstrecken erreicht, die alle großen Städte wie Paris oder Lyon miteinander verbinden."/>
+        <div class="grid justify-center">
+          <img src="/Logo-SNCF.png" class="ml-10 h-auto max-w-sm rounded-lg shadow-none py-2" alt="Logo SNCF" />
+          <img src="/Logo_TGV_inOui.png" class="ml-10 h-auto max-w-sm rounded-lg shadow-none py-2" alt="Logo TVG inOiu" />
+        </div>
+        <img src="/tgv.jpg" class="ml-20 h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="Außenansicht TGV" />
+        <Panel title="" content="Die Züge sind aerodynamisch gestaltet und werden durch elektrische Triebköpfe angetrieben. Das TGV-Netzwerk verbindet Städte und Regionen in Frankreich und erstreckt darüber hinaus sogar über die Grenzen nach Belgien, Deutschland, der Schweiz, Luxemburg, Spanien und Italien."/>
+        <Panel title="" content="Die Hochgeschwindigkeitszüge bieten Passagieren nicht nur eine effiziente Möglichkeit, große Entfernungen zurückzulegen, sondern auch Komfort und Annehmlichkeiten an Bord. Die Sitze sind sehr bequem und bieten viel Platz für die Beine. Die Kopfstützen sind verstellbar und die Armlehnen lassen sich hochklappen."/>
+        <img src="/tgv2.jpg" class="ml-20 h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="Innenraum TGV" />
+      </div>
+      <a href="https://www.sncf-connect.com/de-de/tgv-inoui-quer-europa" target="_blank" class="text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 mt-7">
+        <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-500"/>
+        <h4 class="relative z-9">Weitere Informationen zum Zug &rarr;</h4>
+      </a>
+    </section>
+
+    <section id="sbb" class="flex flex-col items-center justify-center">
+      <hr class="w-48 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700">
+      <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
+        <Panel title="1. TGV" content="Der von der französischen Eisenbahngesellschaft SNCF betriebene TGV (französisch: train á grande vitesse) landet auf dem 1. Platz des Rankings, da er mich insgesamt am meisten überzeugt.
+        Das Hochgeschwindigkeitszugsystem in Frankreich wurde 1981 eingeführt zeichnet sich durch sehr hohe Geschwindigkeiten mit bis zu 320 km/h aus.
+        Diese werden auf extra für den TGV errichteten Hochgeschwindigkeitsstrecken erreicht, die alle großen Städte wie Paris oder Lyon miteinander verbinden."/>
+        <div class="grid justify-center">
+          <img src="/Logo-SNCF.png" class="ml-10 h-auto max-w-sm rounded-lg shadow-none py-2" alt="Logo SNCF" />
+          <img src="/Logo_TGV_inOui.png" class="ml-10 h-auto max-w-sm rounded-lg shadow-none py-2" alt="Logo TVG inOiu" />
+        </div>
+        <img src="/tgv.jpg" class="ml-20 h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="Außenansicht TGV" />
+        <Panel title="" content="Die Züge sind aerodynamisch gestaltet und werden durch elektrische Triebköpfe angetrieben. Das TGV-Netzwerk verbindet Städte und Regionen in Frankreich und erstreckt darüber hinaus sogar über die Grenzen nach Belgien, Deutschland, der Schweiz, Luxemburg, Spanien und Italien."/>
+        <Panel title="" content="Die Hochgeschwindigkeitszüge bieten Passagieren nicht nur eine effiziente Möglichkeit, große Entfernungen zurückzulegen, sondern auch Komfort und Annehmlichkeiten an Bord. Die Sitze sind sehr bequem und bieten viel Platz für die Beine. Die Kopfstützen sind verstellbar und die Armlehnen lassen sich hochklappen."/>
+        <img src="/tgv2.jpg" class="ml-20 h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="Innenraum TGV" />
+      </div>
+      <a href="https://www.sncf-connect.com/de-de/tgv-inoui-quer-europa" target="_blank" class="text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 mt-7">
+        <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-500"/>
+        <h4 class="relative z-9">Weitere Informationen zum Zug &rarr;</h4>
+      </a>
+    </section>
   </div>
 </main>

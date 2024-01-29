@@ -10,7 +10,7 @@
 </script>
 
 <div class="flex items-center justify-center transition-transform transform hover:scale-105">
-    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl py-8 sm:py-14">
+    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl py-5">
         <div class="md:flex">
             <div class="p-8">
                 <div class="uppercase tracking-wide text-slate-950 font-semibold text-2xl">
