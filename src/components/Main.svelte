@@ -64,7 +64,7 @@ function toggleSidebar() {
         <img src="/tgv.jpg" class="ml-20 h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="Außenansicht TGV" />
         <Panel title="" content="Die Züge sind aerodynamisch gestaltet und werden durch elektrische Triebköpfe angetrieben. Das TGV-Netzwerk verbindet Städte und Regionen in Frankreich und erstreckt darüber hinaus sogar über die Grenzen nach Belgien, Deutschland, der Schweiz, Luxemburg, Spanien und Italien."/>
         <Panel title="" content="Die Hochgeschwindigkeitszüge bieten Passagieren nicht nur eine effiziente Möglichkeit, große Entfernungen zurückzulegen, sondern auch Komfort und Annehmlichkeiten an Bord. Die Sitze sind sehr bequem und bieten viel Platz für die Beine. Die Kopfstützen sind verstellbar und die Armlehnen lassen sich hochklappen."/>
-        <img src="/tgv2.jpg" class="ml-20 h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="Innenraum TGV" />
+        <img src="/tgv2.jpg" class="ml-24 h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="Innenraum TGV" />
       </div>
       <a href="https://www.sncf-connect.com/de-de/tgv-inoui-quer-europa" target="_blank" class="text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 mt-7">
         <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-500"/>
@@ -75,17 +75,17 @@ function toggleSidebar() {
     <section id="eurostar" class="flex flex-col items-center justify-center">
       <hr class="w-48 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700">
       <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
-        <Panel title="2. Eurostar" content="Auf dem 2. Platz landet der Eurostar, der vor allem wegen seiner außergewöhnlichen Strecke punktet."/>
         <img src="/Eurostar_logo.png" class="ml-10 h-auto max-w-sm rounded-lg shadow-none mt-10" alt="Logo Eurostar" />
-        <img src="/eurostar.jpg" class="mt-5 ml-20 h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="Außenansicht TGV" />
+        <Panel title="2. Eurostar" content="Auf dem 2. Platz landet der Eurostar, der vor allem wegen seiner außergewöhnlichen Strecke punktet."/>
         <Panel title="" content="Der Eurostar ist ein Hochgeschwindigkeitszuganbieter, der Europa miteinander verbindet, insbesondere Großbritannien, Frankreich, Belgien und die Niederlande.
         Der Service wurde 1994 eingeführt und hat sich seitdem zu einer effizienten und beliebten Transportoption für Reisende entwickelt.
         Die Hauptstrecke des Eurostars verläuft durch den Eurotunnel, der den Ärmelkanal unterquert und Großbritannien mit dem europäischen Festland verbindet.
         Die Züge fahren von London St. Pancras International ab und erreichen Paris Gare du Nord sowie Brüssel Midi/Zuid in unter 2 Stunden."/>
+        <img src="/eurostar.jpg" class="mt-5 ml-24 h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="Außenansicht Eurostar" />
+        <img src="/eurostar2.jpg" class="ml-20 h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="Innenraum Eurostar" />
         <Panel title="" content="Der Eurostar zeichnet sich durch seine hohe Geschwindigkeit, Komfort und Zuverlässigkeit aus.
         Die modernen Züge bieten Reisenden Annehmlichkeiten wie WLAN, Steckdosen, Bordrestaurants und großzügige Sitzplatzarrangements.
         Dies macht den Eurostar zu einer attraktiven Wahl für Geschäftsreisende und Urlauber, die schnell und bequem zwischen den europäischen Städten reisen möchten."/>
-        <img src="/eurostar2.jpg" class="ml-20 h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="Innenraum TGV" />
       </div>
       <a href="https://www.eurostar.com/de-de/zug" target="_blank" class="text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 mt-7">
         <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-500"/>
