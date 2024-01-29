@@ -7,7 +7,7 @@
 </script>
   
 <style>
-    @media (max-width: 1023px) {
+    @media (max-width: 1480px) {
       .sidebar {
         display: none;
       }
