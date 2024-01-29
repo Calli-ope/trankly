@@ -1,48 +1,66 @@
 <script>
 import SideBar from './SideBar.svelte';
 import Panel from './Panel.svelte';
+
+let isOpen = false;
+
+function toggleSidebar() {
+  isOpen = !isOpen;
+}
 </script>
 
+<style>
+  .main-content {
+    margin-left: 200px; /* Adjust this value to match the width of your sidebar */
+  }
+
+  .main-content.open {
+    margin-left: 200px; /* Adjust this value to match the width of your sidebar */
+  }
+</style>
+
 <main class="flex flex-col flex-1 p-4">
-  <SideBar />
-  <section id="/" class="flex flex-col items-center justify-center py-8 sm:py-14">
-    <div class="flex flex-col items-center gap-20 leading-loose">
-      <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl text-center">
-        Ranking der besten <span class="hover:text-euBlue">europäischen</span> <br/> Hochgeschwindigkeitszüge
-      </h2>
-      <div class="gap-1 flex flex-col items-center">
-      <p class="text-2xl sm:text-lg md:text-xl text-center">
-        In diesem Ranking werde ich die besten Hochgeschwindigkeitszüge <i class="fa-solid fa-train fa-beat-fade fa-lg" style="color: #74C0FC;"></i> nach den folgenden Kriterien bewerten:
-      </p>
-      <ul class="text-left list-disc text-xl">
-        <li class="hover:text-teal-400">Komfort<br/></li>
-        <li class="hover:text-teal-400">Geschwindigkeit<br/></li>
-        <li class="hover:text-teal-400">Ausstattung<br/></li>
-        <li class="hover:text-teal-400">& Service<br/></li>
-      </ul>
+  <SideBar {isOpen} {toggleSidebar} />
+  <div class="{`main-content lg:ml-64 transition-all duration-300 ${isOpen ? 'open' : ''}`}">
+    <section id="/" class="flex flex-col items-center justify-center py-8 sm:py-14">
+      <div class="flex flex-col items-center gap-20 leading-loose">
+        <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl text-center">
+          Ranking der besten <span class="hover:text-euBlue">europäischen</span> <br/> Hochgeschwindigkeitszüge
+        </h2>
+        <div class="gap-1 flex flex-col items-center">
+        <p class="text-2xl sm:text-lg md:text-xl text-center">
+          In diesem Ranking werde ich die besten Hochgeschwindigkeitszüge <i class="fa-solid fa-train fa-beat-fade fa-lg" style="color: #74C0FC;"></i> nach den folgenden Kriterien bewerten:
+        </p>
+        <ul class="text-left list-disc text-xl">
+          <li class="hover:text-teal-400">Komfort<br/></li>
+          <li class="hover:text-teal-400">Geschwindigkeit<br/></li>
+          <li class="hover:text-teal-400">Ausstattung<br/></li>
+          <li class="hover:text-teal-400">& Service<br/></li>
+        </ul>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="max-w-md mx-auto bg-slate-950 rounded-xl shadow-md overflow-hidden md:max-w-2xl transition-transform transform hover:scale-105">
-    <div class="md:flex">
-      <div class="p-8">
-        <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold"><i class="fa-solid fa-exclamation fa-bounce mr-1" style="color: #f84407;"></i>Disclaimer</div>
-          <p class="mt-2 text-slate-500">Das Ranking basiert ausschließlich auf eigenen Erfahrungen und erhebt keinen Anspruch auf Vollständigkeit.</p>
+    <section class="max-w-md mx-auto bg-slate-950 rounded-xl shadow-md overflow-hidden md:max-w-2xl transition-transform transform hover:scale-105">
+      <div class="md:flex">
+        <div class="p-8">
+          <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold"><i class="fa-solid fa-exclamation fa-bounce mr-1" style="color: #f84407;"></i>Disclaimer</div>
+            <p class="mt-2 text-slate-500">Das Ranking basiert ausschließlich auf eigenen Erfahrungen und erhebt keinen Anspruch auf Vollständigkeit.</p>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
 
-  <section id="öbb">
-    <div class="grid grid-cols-2 gap-4">
-      <Panel title="ÖBB" content="Content for Disclaimer 1. und was passiert in diesem Laden dann? und wenn der noch breiter wird wie deine Mutter andauernd penis penis penis?"/>
-      <img src="/example.jpg" class="h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="" />
-      <Panel title="Disclaimer 3" content="Content for Disclaimer 3."/>
-      <Panel title="Disclaimer 4" content="Content for Disclaimer 4."/>
-    </div>
-  </section>
+    <section id="öbb">
+      <div class="grid grid-cols-2 gap-4">
+        <Panel title="ÖBB" content="Content for Disclaimer 1. und was passiert in diesem Laden dann? und wenn der noch breiter wird wie deine Mutter andauernd penis penis penis?"/>
+        <img src="/example.jpg" class="h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-slate-500" alt="" />
+        <Panel title="Disclaimer 3" content="Content for Disclaimer 3."/>
+        <Panel title="Disclaimer 4" content="Content for Disclaimer 4."/>
+      </div>
+    </section>
 
-  <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
+    <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
+  </div>
 </main>

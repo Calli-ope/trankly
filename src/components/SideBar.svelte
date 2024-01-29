@@ -1,20 +1,28 @@
 <script>
-    let isOpen = false;
-  
-    function toggleSidebar() {
-      isOpen = !isOpen;
-    }
+    /**
+	 * @type {any}
+	 */
+     export let isOpen;
+    /**
+	 * @type {any}
+	 */
+     export let toggleSidebar;
 </script>
-  
+
 <style>
     @media (max-width: 1480px) {
-      .sidebar {
-        display: none;
-      }
-  
-      .sidebar.open {
-        display: block;
-      }
+        .sidebar {
+            transform: translateX(-100%);
+        }
+
+        .sidebar.open {
+            transform: translateX(0);
+        }
+    }
+    @media (min-width: 1481px) {
+        .show-button {
+            display: none;
+        }
     }
 </style>
 
@@ -47,9 +55,9 @@
     </div>
 </aside>
 
-<button on:click={toggleSidebar} class="{`lg:hidden fixed top-0 right-0 z-50 p-3 m-2 text-white bg-gray-800 rounded-full ${isOpen ? 'close-button' : 'open-button'}`}"
-        transition:opacity
-        style:opacity="{isOpen ? 1 : 1}">
+<button on:click={toggleSidebar} class="{`lg-hidden fixed top-0 right-0 z-50 p-3 m-2 text-white bg-gray-800 rounded-full ${isOpen ? 'close-button' : 'open-button'} show-button`}"
+    transition:opacity
+    style:opacity="{isOpen ? 1 : 1}">
     {#if isOpen}
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
           <path d="M6 18L18 6M6 6l12 12"></path>
