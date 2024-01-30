@@ -1,9 +1,9 @@
 <script>
-    export let title = "Impressum";
+
 </script>
 
 <main>
-    <h1>{title}</h1>
+    <h1 class="font-bold text-3xl">Impressum</h1>
 
     <section>
         <h2>Angaben gemäß § 5 TMG:</h2>
