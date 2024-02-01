@@ -1,12 +1,6 @@
 <script>
-    /**
-     * @type {any}
-     */
-    export let title;
-    /**
-     * @type {any}
-     */
-    export let content;
+    export let title = "";
+    export let content = "";
 </script>
 
 <div class="flex items-center justify-center transition-transform transform hover:scale-105">

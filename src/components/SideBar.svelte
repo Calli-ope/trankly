@@ -10,7 +10,7 @@
 </script>
 
 <style>
-    @media (max-width: 1480px) {
+    @media (max-width: 1870px) {
         .sidebar {
             transform: translateX(-100%);
         }
@@ -19,7 +19,7 @@
             transform: translateX(0);
         }
     }
-    @media (min-width: 1481px) {
+    @media (min-width: 1871px) {
         .show-button {
             display: none;
         }
