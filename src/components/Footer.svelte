@@ -1,7 +1,7 @@
 <script>
     export let home = "/";
     export let impressum = "/Impressum";
-    export let datenschutz = "#";
+    export let datenschutz = "/Datenschutz";
 </script>
 
 <footer class="bg-slate-950 rounded-lg mb-4 mt-auto">
