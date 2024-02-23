@@ -1,14 +1,39 @@
 <script lang="ts">
-    import SideBar from '$lib/components/SideBar.svelte';
-    import Panel from '$lib/components/Panel.svelte';
-    import ImageWrapper from '$lib/components/ImageWrapper.svelte';
-    
-    let isOpen = false;
-    
-    function toggleSidebar() {
-      isOpen = !isOpen;
-    }
+  import SideBar from '$lib/components/SideBar.svelte';
+  import Panel from '$lib/components/Panel.svelte';
+  import ImageWrapper from '$lib/components/ImageWrapper.svelte';
+  
+  let isOpen = false;
+  
+  function toggleSidebar() {
+    isOpen = !isOpen;
+  }
+  let rankingData: any[] = [];
+
+  fetch('http://localhost:3000/ranking')
+    .then(res => {
+      return res.json();
+    })
+    .then(data => {
+      console.log('Ranking data:', data);
+      rankingData = data;
+    })
+    .catch(error => {
+      console.error('Error fetching ranking data:', error);
+    });
 </script>
+
+<h1>Ranking Page</h1>
+<ul>
+  {#each rankingData as item}
+      <li>
+        <p>{item.id}</p>
+        <p>{item.titel}</p>
+        <p>{item.description1}</p>
+        <img src={item.scr1} alt="Image 1"/>
+      </li>
+  {/each}
+</ul>
 
 <main class="flex flex-col min-h-screen">
     <SideBar {isOpen} {toggleSidebar} />

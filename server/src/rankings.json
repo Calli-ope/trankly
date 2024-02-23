@@ -1,0 +1,18 @@
+{
+  "rankings": [
+    {
+      "id": 1,
+      "titel": "TVG",
+      "description1": "Der von der französischen Eisenbahngesellschaft SNCF betriebene TGV (französisch: train á grande vitesse) landet auf dem 1. Platz des Rankings, da er mich insgesamt am meisten überzeugt. Das Hochgeschwindigkeitszugsystem in Frankreich wurde 1981 eingeführt zeichnet sich durch sehr hohe Geschwindigkeiten mit bis zu 320 km/h aus. Diese werden auf extra für den TGV errichteten Hochgeschwindigkeitsstrecken erreicht, die alle großen Städte wie Paris oder Lyon miteinander verbinden.",
+      "description2": "Die Züge sind aerodynamisch gestaltet und werden durch elektrische Triebköpfe angetrieben. Das TGV-Netzwerk verbindet Städte und Regionen in Frankreich und erstreckt darüber hinaus sogar über die Grenzen nach Belgien, Deutschland, der Schweiz, Luxemburg, Spanien und Italien.",
+      "description3": "Die Hochgeschwindigkeitszüge bieten Passagieren nicht nur eine effiziente Möglichkeit, große Entfernungen zurückzulegen, sondern auch Komfort und Annehmlichkeiten an Bord. Die Sitze sind sehr bequem und bieten viel Platz für die Beine. Die Kopfstützen sind verstellbar und die Armlehnen lassen sich hochklappen.",
+      "scr1": "tgv.jpg",
+      "src2": "tgv2.jpg"
+    },
+    {
+      "id": 2,
+      "src2": "eurostar2.jpg",
+      "description": "Picture 2"
+    }
+  ]
+}
