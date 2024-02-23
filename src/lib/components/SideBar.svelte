@@ -22,7 +22,7 @@
 
 <aside class="{`fixed top-0 left-0 z-40 w-64 h-screen bg-slate-950 sidebar ${isOpen ? 'open' : ''}`}" aria-label="Sidebar">
     <div class="h-full px-3 py-8 overflow-y-auto bg-slate-950">
-        <a href="/" class="flex items-center ps-5 mb-8">
+        <a href="/ranking" class="flex items-center ps-5 mb-8">
             <i class="fa-solid fa-ranking-star fa-2xl mr-4" style="color: #ffd700;"></i>
             <span class="self-center text-2xl font-semibold text-white">Ranking</span>
         </a>
