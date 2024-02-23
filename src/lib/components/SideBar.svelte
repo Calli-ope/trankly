@@ -1,12 +1,6 @@
-<script>
-    /**
-	 * @type {any}
-	 */
-     export let isOpen;
-    /**
-	 * @type {any}
-	 */
-     export let toggleSidebar;
+<script lang="ts">
+     export let isOpen: boolean;
+     export let toggleSidebar: () => void;
 </script>
 
 <style>

@@ -1,12 +1,9 @@
-<script>
+<script lang="ts">
     import "../app.css";
-	import Footer from "../components/Footer.svelte";
-	import Header from "../components/Header.svelte";
+	import Footer from "$lib/components/Footer.svelte";
+	import Header from "$lib/components/Header.svelte";
 
-    /**
-	 * @type {number}
-	 */
-    let y;
+    let y: number;
     let innerHeight = 0;
     let innerWidth = 0;
 

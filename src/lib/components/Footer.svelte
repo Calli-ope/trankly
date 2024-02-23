@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     export let home = "/";
     export let impressum = "/Impressum";
     export let datenschutz = "/Datenschutz";

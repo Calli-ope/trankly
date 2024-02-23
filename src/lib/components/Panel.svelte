@@ -1,6 +1,6 @@
-<script>
-    export let title = "";
-    export let content = "";
+<script lang="ts">
+    export let title: string;
+    export let content: string;
 </script>
 
 <div class="flex items-center justify-center transition-transform transform hover:scale-105">

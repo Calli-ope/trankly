@@ -1,7 +1,7 @@
 <script>
-    import SideBar from '../components/SideBar.svelte';
-    import Panel from '../components/Panel.svelte';
-    import ImageWrapper from '../components/ImageWrapper.svelte';
+    import SideBar from '$lib/components/SideBar.svelte';
+    import Panel from '$lib/components/Panel.svelte';
+    import ImageWrapper from '$lib/components/ImageWrapper.svelte';
     
     let isOpen = false;
     

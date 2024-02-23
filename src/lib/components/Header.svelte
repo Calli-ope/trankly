@@ -1,8 +1,5 @@
-<script>
-    /**
-	 * @type {number}
-	 */
-     export let y;
+<script lang="ts">
+     export let y: number;
 </script>
 
 <header class={'sticky z-[10] top-0 duration-200 px-6 flex items-center justify-center border border-solid rounded-lg ' + 
