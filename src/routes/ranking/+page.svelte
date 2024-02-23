@@ -3,12 +3,22 @@
   import Panel from '$lib/components/Panel.svelte';
   import ImageWrapper from '$lib/components/ImageWrapper.svelte';
   
+  interface RankingData {
+    id: number;
+    titel: string;
+    description1: string;
+    description2: string;
+    description3: string;
+    src1: string;
+    src2: string;
+  }
+
   let isOpen = false;
+  let ranking: RankingData[] = [];
   
   function toggleSidebar() {
     isOpen = !isOpen;
   }
-  let rankingData: any[] = [];
 
   fetch('http://localhost:3000/ranking')
     .then(res => {
@@ -16,7 +26,7 @@
     })
     .then(data => {
       console.log('Ranking data:', data);
-      rankingData = data;
+      ranking = data;
     })
     .catch(error => {
       console.error('Error fetching ranking data:', error);
@@ -24,16 +34,19 @@
 </script>
 
 <h1>Ranking Page</h1>
-<ul>
-  {#each rankingData as item}
-      <li>
-        <p>{item.id}</p>
-        <p>{item.titel}</p>
-        <p>{item.description1}</p>
-        <img src={item.scr1} alt="Image 1"/>
-      </li>
-  {/each}
-</ul>
+{#if ranking[0]}
+  <div>
+    <h2>Ranking {ranking[0].id}</h2>
+    <p>Title: {ranking[0].titel}</p>
+    <p>Description 1: {ranking[0].description1}</p>
+    <p>Description 2: {ranking[0].description2}</p>
+    <p>Description 3: {ranking[0].description3}</p>
+    <img src={ranking[0].src1} alt="Image 1"/>
+    <img src={ranking[0].src2} alt="Image 2"/>
+  </div>
+{:else}
+  <p>No data available for the first ranking.</p>
+{/if}
 
 <main class="flex flex-col min-h-screen">
     <SideBar {isOpen} {toggleSidebar} />
