@@ -2,17 +2,8 @@
   import SideBar from '$lib/components/SideBar.svelte';
   import Panel from '$lib/components/Panel.svelte';
   import ImageWrapper from '$lib/components/ImageWrapper.svelte';
+  import type { RankingData } from '$lib/helper';
   
-  interface RankingData {
-    id: number;
-    titel: string;
-    description1: string;
-    description2: string;
-    description3: string;
-    src1: string;
-    src2: string;
-  }
-
   let isOpen = false;
   let ranking: RankingData[] = [];
   
@@ -33,7 +24,7 @@
     });
 </script>
 
-<h1>Ranking Page</h1>
+<h1>1</h1>
 {#if ranking[0]}
   <div>
     <h2>Ranking {ranking[0].id}</h2>
@@ -43,6 +34,21 @@
     <p>Description 3: {ranking[0].description3}</p>
     <img src={ranking[0].src1} alt="Image 1"/>
     <img src={ranking[0].src2} alt="Image 2"/>
+  </div>
+{:else}
+  <p>No data available for the first ranking.</p>
+{/if}
+
+<h1>2</h1>
+{#if ranking[1]}
+  <div>
+    <h2>Ranking {ranking[1].id}</h2>
+    <p>Title: {ranking[1].titel}</p>
+    <p>Description 1: {ranking[1].description1}</p>
+    <p>Description 2: {ranking[1].description2}</p>
+    <p>Description 3: {ranking[1].description3}</p>
+    <img src={ranking[1].src1} alt="Image 1"/>
+    <img src={ranking[1].src2} alt="Image 2"/>
   </div>
 {:else}
   <p>No data available for the first ranking.</p>
