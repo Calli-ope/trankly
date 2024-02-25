@@ -1,8 +1,8 @@
 <script lang="ts">
     export let home = "/";
     export let ranking = "/ranking";
-    export let impressum = "/impressum";
-    export let datenschutz = "/datenschutz";
+    export let impressum = "/Impressum";
+    export let datenschutz = "/Datenschutz";
 </script>
 
 <footer class="bg-slate-950 rounded-lg mb-2 mt-auto">
