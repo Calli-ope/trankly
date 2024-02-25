@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
     
-<main class="flex flex-col min-h-screen">
+<main class="flex flex-col h-screen">
   <section id="/" class="flex flex-col items-center justify-center py-8 sm:py-14">
     <div class="flex flex-col items-center gap-20 leading-loose">
       <h2 class="font-semibold text-4xl text-center">
