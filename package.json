@@ -35,6 +35,13 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/adapter-vercel": "^5.1.0"
+		"@sveltejs/adapter-vercel": "^5.1.0",
+		"bits-ui": "^0.18.2",
+		"clsx": "^2.1.0",
+		"embla-carousel-autoplay": "^8.0.0",
+		"embla-carousel-svelte": "^8.0.0",
+		"lucide-svelte": "^0.341.0",
+		"tailwind-merge": "^2.2.1",
+		"tailwind-variants": "^0.2.0"
 	}
 }
