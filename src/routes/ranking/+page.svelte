@@ -1,7 +1,9 @@
 <script lang="ts">
   import SideBar from '$lib/components/SideBar.svelte';
   import Panel from '$lib/components/Panel.svelte';
-  import ImageWrapper from '$lib/components/ImageWrapper.svelte';
+  import PhotoWrapper from '$lib/components/PhotoWrapper.svelte';
+  import LogoWrapper from '$lib/components/LogoWrapper.svelte';
+  import Info from '$lib/components/Info.svelte';
   import type { RankingData } from '$lib/helper';
   
   let isOpen = false;
@@ -32,39 +34,31 @@
           {#if ranking[0]}
             <Panel title={ranking[0].titel} content={ranking[0].description1}/>
             <div class="grid justify-center">
-              <img src={ranking[0].logo1} class="h-auto max-w-sm rounded-lg py-2" alt="Logo SNCF" />
-              <img src={ranking[0].logo2} class="h-auto max-w-sm rounded-lg py-2" alt="Logo TVG inOiu" />
+              <LogoWrapper src={ranking[0].logo1} alt="Logo SNCF" />
+              <LogoWrapper src={ranking[0].logo2} alt="Logo TVG inOiu" />
             </div>
-            <ImageWrapper src={ranking[0].photo1} alt="Außenansicht TGV" />
+            <PhotoWrapper src={ranking[0].photo1} alt="Außenansicht TGV" />
             <Panel title="" content={ranking[0].description2}/>
             <Panel title="" content={ranking[0].description3}/>
-            <ImageWrapper src={ranking[0].photo2} alt="Innenraum TGV" />
+            <PhotoWrapper src={ranking[0].photo2} alt="Innenraum TGV" />
           {/if}
         </div>
-        <a href="https://www.sncf-connect.com/de-de/tgv-inoui-quer-europa" target="_blank" class="text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 mt-7">
-          <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-500"/>
-          <h4 class="relative z-9">Weitere Informationen zum Zug &rarr;</h4>
-        </a>
+        <Info href="https://www.sncf-connect.com/de-de/tgv-inoui-quer-europa" />
       </section>
   
       <section id="eurostar" class="flex flex-col items-center justify-center">
         <hr class="w-48 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700">
         <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
           {#if ranking[1]}
-            <div class="grid justify-center">
-                <img src={ranking[1].logo1} class="ml-10 h-auto max-w-sm rounded-lg shadow-none mt-10" alt="Logo Eurostar" />
-            </div>
+            <LogoWrapper src={ranking[1].logo1} alt="Logo Eurostar" />
             <Panel title={ranking[1].titel} content={ranking[1].description1}/>
             <Panel title="" content={ranking[1].description2}/>
-            <ImageWrapper src={ranking[1].photo1} alt="Außenansicht Eurostar" />
-            <ImageWrapper src={ranking[1].photo2} alt="Innenraum Eurostar" />
+            <PhotoWrapper src={ranking[1].photo1} alt="Außenansicht Eurostar" />
+            <PhotoWrapper src={ranking[1].photo2} alt="Innenraum Eurostar" />
             <Panel title="" content={ranking[1].description3}/>
           {/if}
         </div>
-        <a href="https://www.eurostar.com/de-de/zug" target="_blank" class="text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 mt-7">
-          <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-500"/>
-          <h4 class="relative z-9">Weitere Informationen zum Zug &rarr;</h4>
-        </a>
+        <Info href="https://www.eurostar.com/de-de/zug" />
       </section>
   
       <section id="sbb" class="flex flex-col items-center justify-center">
@@ -73,60 +67,49 @@
           {#if ranking[0]}
             <Panel title={ranking[0].titel} content={ranking[0].description1}/>
             <div class="grid justify-center">
-              <img src={ranking[0].logo1} class="h-auto max-w-sm rounded-lg py-2" alt="Logo SNCF" />
-              <img src={ranking[0].logo2} class="h-auto max-w-sm rounded-lg py-2" alt="Logo TVG inOiu" />
+              <LogoWrapper src={ranking[0].logo1} alt="Logo SNCF" />
+              <LogoWrapper src={ranking[0].logo2} alt="Logo TVG inOiu" />
             </div>
-            <ImageWrapper src={ranking[0].photo1} alt="Außenansicht TGV" />
+            <PhotoWrapper src={ranking[0].photo1} alt="Außenansicht TGV" />
             <Panel title="" content={ranking[0].description2}/>
             <Panel title="" content={ranking[0].description3}/>
-            <ImageWrapper src={ranking[0].photo2} alt="Innenraum TGV" />
+            <PhotoWrapper src={ranking[0].photo2} alt="Innenraum TGV" />
           {/if}
         </div>
-        <a href="https://www.sncf-connect.com/de-de/tgv-inoui-quer-europa" target="_blank" class="text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 mt-7">
-          <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-500"/>
-          <h4 class="relative z-9">Weitere Informationen zum Zug &rarr;</h4>
-        </a>
+        <Info href="https://www.sncf-connect.com/de-de/tgv-inoui-quer-europa" />
       </section>
   
       <section id="frecce" class="flex flex-col items-center justify-center">
         <hr class="w-48 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700">
         <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
           {#if ranking[1]}
-            <div class="grid justify-center">
-                <img src={ranking[1].logo1} class="ml-10 h-auto max-w-sm rounded-lg shadow-none mt-10" alt="Logo Eurostar" />
-            </div>
+            <LogoWrapper src={ranking[1].logo1} alt="Logo Eurostar" />
             <Panel title={ranking[1].titel} content={ranking[1].description1}/>
             <Panel title="" content={ranking[1].description2}/>
-            <ImageWrapper src={ranking[1].photo1} alt="Außenansicht Eurostar" />
-            <ImageWrapper src={ranking[1].photo2} alt="Innenraum Eurostar" />
+            <PhotoWrapper src={ranking[1].photo1} alt="Außenansicht Eurostar" />
+            <PhotoWrapper src={ranking[1].photo2} alt="Innenraum Eurostar" />
             <Panel title="" content={ranking[1].description3}/>
           {/if}
         </div>
-        <a href="https://www.eurostar.com/de-de/zug" target="_blank" class="text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 mt-7">
-          <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-500"/>
-          <h4 class="relative z-9">Weitere Informationen zum Zug &rarr;</h4>
-        </a>
+        <Info href="https://www.eurostar.com/de-de/zug" />
       </section>
   
-      <section id="ice" class="flex flex-col items-center justify-center">
+      <section id="ice" class="flex flex-col items-center justify-center mb-7">
         <hr class="w-48 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700">
         <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
           {#if ranking[0]}
             <Panel title={ranking[0].titel} content={ranking[0].description1}/>
             <div class="grid justify-center">
-              <img src={ranking[0].logo1} class="h-auto max-w-sm rounded-lg py-2" alt="Logo SNCF" />
-              <img src={ranking[0].logo2} class="h-auto max-w-sm rounded-lg py-2" alt="Logo TVG inOiu" />
+              <LogoWrapper src={ranking[0].logo1} alt="Logo SNCF" />
+              <LogoWrapper src={ranking[0].logo2} alt="Logo TVG inOiu" />
             </div>
-            <ImageWrapper src={ranking[0].photo1} alt="Außenansicht TGV" />
+            <PhotoWrapper src={ranking[0].photo1} alt="Außenansicht TGV" />
             <Panel title="" content={ranking[0].description2}/>
             <Panel title="" content={ranking[0].description3}/>
-            <ImageWrapper src={ranking[0].photo2} alt="Innenraum TGV" />
+            <PhotoWrapper src={ranking[0].photo2} alt="Innenraum TGV" />
           {/if}
         </div>
-        <a href="https://www.sncf-connect.com/de-de/tgv-inoui-quer-europa" target="_blank" class="text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 my-7">
-          <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-500"/>
-          <h4>Weitere Informationen zum Zug &rarr;</h4>
-        </a>
+        <Info href="https://www.sncf-connect.com/de-de/tgv-inoui-quer-europa" />
       </section>
     </div>
   </main>

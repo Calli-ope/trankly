@@ -22,18 +22,18 @@
     </div>
   </section>
 
-  <section class="max-w-md mx-auto bg-slate-950 rounded-xl shadow-md md:max-w-2xl transition-transform transform hover:scale-105">
-    <div class="md:flex p-8">
+  <section class="max-w-md mx-auto bg-slate-500 rounded-xl shadow-md md:max-w-2xl transition-transform transform hover:scale-105">
+    <div class="md:flex p-5">
       <div class="p-8">
-        <div class="uppercase tracking-wide text-md text-indigo-500 font-semibold"><i class="fa-solid fa-exclamation fa-bounce mr-1" style="color: #f84407;"></i>Disclaimer</div>
-          <p class="mt-2 text-slate-500">Das Ranking basiert ausschließlich auf eigenen Erfahrungen und erhebt keinen Anspruch auf Vollständigkeit.</p>
+        <div class="uppercase tracking-wide text-md text-violet-950 font-semibold"><i class="fa-solid fa-exclamation fa-bounce mr-1" style="color: #f84407;"></i>Disclaimer</div>
+          <p class="mt-2 text-slate-950">Das Ranking basiert ausschließlich auf eigenen Erfahrungen und erhebt keinen Anspruch auf Vollständigkeit.</p>
       </div>
     </div>
   </section>
   <section class="flex flex-col items-center py-5">
-    <a href="/ranking"  class="text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 mt-7">
-      <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-500"/>
-      <h4 class="relative z-9">Zum Ranking &rarr;</h4>
+    <a href="/ranking"  class="text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-black mt-7">
+      <div class="absolute top-0 right-full w-full h-full bg-violet-500 opacity-20 group-hover:translate-x-full z-0 duration-500"/>
+      <h4 class="relative z-10">Zum Ranking &rarr;</h4>
     </a>
   </section>
 </main>
