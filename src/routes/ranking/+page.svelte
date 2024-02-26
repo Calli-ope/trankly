@@ -43,7 +43,7 @@
             <PhotoWrapper src={ranking[0].photo2} alt="Innenraum TGV" />
           {/if}
         </div>
-        <Info href="https://www.sncf-connect.com/de-de/tgv-inoui-quer-europa" />
+        <Info href="https://www.sncf-connect.com/de-de/tgv-inoui-quer-europa" link="Weitere Informationen zum Zug &rarr;" />
       </section>
   
       <section id="eurostar" class="flex flex-col items-center justify-center">
@@ -58,7 +58,7 @@
             <Panel title="" content={ranking[1].description3}/>
           {/if}
         </div>
-        <Info href="https://www.eurostar.com/de-de/zug" />
+        <Info href="https://www.eurostar.com/de-de/zug" link="Weitere Informationen zum Zug &rarr;"/>
       </section>
   
       <section id="sbb" class="flex flex-col items-center justify-center">
@@ -76,7 +76,7 @@
             <PhotoWrapper src={ranking[0].photo2} alt="Innenraum TGV" />
           {/if}
         </div>
-        <Info href="https://www.sncf-connect.com/de-de/tgv-inoui-quer-europa" />
+        <Info href="https://www.sncf-connect.com/de-de/tgv-inoui-quer-europa" link="Weitere Informationen zum Zug &rarr;" />
       </section>
   
       <section id="frecce" class="flex flex-col items-center justify-center">
@@ -91,7 +91,7 @@
             <Panel title="" content={ranking[1].description3}/>
           {/if}
         </div>
-        <Info href="https://www.eurostar.com/de-de/zug" />
+        <Info href="https://www.eurostar.com/de-de/zug" link="Weitere Informationen zum Zug &rarr;" />
       </section>
   
       <section id="ice" class="flex flex-col items-center justify-center mb-7">
@@ -109,7 +109,7 @@
             <PhotoWrapper src={ranking[0].photo2} alt="Innenraum TGV" />
           {/if}
         </div>
-        <Info href="https://www.sncf-connect.com/de-de/tgv-inoui-quer-europa" />
+        <Info href="https://www.sncf-connect.com/de-de/tgv-inoui-quer-europa" link="Weitere Informationen zum Zug &rarr;" />
       </section>
     </div>
   </main>
