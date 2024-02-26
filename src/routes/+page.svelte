@@ -22,7 +22,7 @@
         Die <span class="hover:text-amber-300 ">ultimative </span> Plattform <br/> für Zugfans und Reisende!
       </h2>
       <img src="/logo.svg" alt="train" class="w-40 h-40 sm:w-60 sm:h-60 rounded-3xl"/>
-      <div class="gap-1 flex flex-col items-center my-16">
+      <div class="gap-1 flex flex-col items-center my-8">
         <p class="text-xl font-semibold text-center">
           In diesem Ranking werden die besten <br/> Hochgeschwindigkeitszüge nach den folgenden Kriterien bewertet:
         </p>
