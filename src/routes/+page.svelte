@@ -56,6 +56,7 @@
   <section class="flex flex-col items-center">
     <hr class="w-48 h-1 mx-auto my-6 border-0 rounded md:my-6 bg-gray-700">
     <Info href="/ranking" link="Zum Ranking &rarr;" />
+    <Info href="/map" link="Zur Karte &rarr;" />
   </section>
 
   <section class="max-w-md mx-auto bg-slate-500 rounded-xl shadow-md md:max-w-2xl transition-transform transform hover:scale-105 my-8">
