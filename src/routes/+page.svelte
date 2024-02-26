@@ -1,23 +1,25 @@
 <script lang="ts">
 </script>
     
-<main class="flex flex-col h-screen">
+<main class="flex flex-col min-h-screen">
   <section id="/" class="flex flex-col items-center justify-center py-8 sm:py-14">
-    <div class="flex flex-col items-center gap-20 leading-loose">
-      <h2 class="font-semibold text-4xl text-center">
-        Ranking der besten <span class="hover:text-euBlue">europäischen</span> <br/> Hochgeschwindigkeitszüge
+    <div class="flex flex-col items-center gap-10 leading-loose mb-10">
+      <img src="/logo.svg" alt="train" class="w-40 h-40 sm:w-60 sm:h-60 rounded-3xl"/>
+      <h2 class="font-semibold text-3xl text-center">
+        Die <span class="hover:text-amber-300 ">ultimative </span> Plattform <br/> für Zugfans und Reisende!
       </h2>
       <div class="gap-1 flex flex-col items-center">
-      <p class="text-2xl font-semibold text-center">
-        In diesem Ranking werde ich die besten Hochgeschwindigkeitszüge nach den folgenden Kriterien bewerten:
-      </p>
-      <ul class="text-left list-disc text-lg italic">
-        <li class="hover:text-teal-400">Komfort<br/></li>
-        <li class="hover:text-teal-400">Ausstattung<br/></li>
-        <li class="hover:text-teal-400">Geschwindigkeit<br/></li>
-        <li class="hover:text-teal-400">Anzahl der Strecken<br/></li>
-        <li class="hover:text-teal-400">Service<br/></li>
-      </ul>
+        <p class="text-2xl font-semibold text-center">
+          In diesem Ranking werde ich die besten Hochgeschwindigkeitszüge nach den folgenden Kriterien bewerten:Ranking der besten <span class="hover:text-euBlue">europäischen</span> <br/> Hochgeschwindigkeitszüge <br/> 
+        </p>
+        <ul class="text-left list-disc text-lg italic">
+          <li class="hover:text-teal-400">Komfort<br/></li>
+          <li class="hover:text-teal-400">Ausstattung<br/></li>
+          <li class="hover:text-teal-400">Geschwindigkeit<br/></li>
+          <li class="hover:text-teal-400">Anzahl der Strecken<br/></li>
+          <li class="hover:text-teal-400">Service<br/></li>
+          <li class="hover:text-teal-400">Preis<br/></li>
+        </ul>
       </div>
     </div>
   </section>
