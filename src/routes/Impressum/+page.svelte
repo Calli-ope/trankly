@@ -3,40 +3,45 @@
 </script>
 
 <main>
-    <h1 class="font-bold text-3xl">Impressum</h1>
+    <h1 class="font-bold text-3xl text-center">Impressum</h1>
 
-    <section>
-        <h2>Angaben gemäß § 5 TMG:</h2>
-        <p>Ihr Name</p>
-        <p>Ihre Straße 123</p>
-        <p>12345 Ihre Stadt</p>
-        <p>Telefon: 01234 567890</p>
-        <p>E-Mail: info@example.com</p>
+    <section class="my-5">
+        <h2 class="font-bold text-xl">Angaben gemäß § 5 TMG</h2>
+        <p>Trankly</p>
+        <p>Trankly Weg 1</p>
+        <p>Berlin</p>
     </section>
 
-    <section>
-        <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</h2>
-        <p>Ihr Name</p>
-        <p>Ihre Straße 123</p>
-        <p>12345 Ihre Stadt</p>
+    <section class="my-5">
+        <h2 class="font-bold text-xl">Kontakt</h2>
+        <p>Telefon: 123456789</p>
+        <p>E-Mail: trankly@abc.com</p>
     </section>
 
-    <section>
-        <h2>Haftungsausschluss (Disclaimer)</h2>
-        <h3>Haftung für Inhalte</h3>
-        <p>...</p>
-        <h3>Haftung für Links</h3>
-        <p>...</p>
-        <h3>Urheberrecht</h3>
-        <p>...</p>
+    <section class="my-5">
+        <h2 class="font-bold text-xl">Vertreten durch</h2>
+        <p>Konrad Martens</p>
     </section>
 
-    <section>
-        <h2>Datenschutzerklärung</h2>
-        <p>...</p>
+    <section class="my-5">
+        <h2 class="font-bold text-xl">Registereintrag</h2>
+        <p>Eintragung im Handelsregister</p>
+        <p>Registergericht: Berlin</p>
+    </section>
+
+    <section class="my-5">
+        <h2 class="font-bold text-xl">Umsatzsteuer-ID</h2>
+        <p>Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz</p>
+        <p>DE Ihre USt-IdNr</p>
+    </section>
+
+    <section class="my-5">
+        <h2 class="font-bold text-xl">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
+        <p>Konrad Martens</p>
+    </section>
+
+    <section class="my-5">
+        <h2 class="font-bold text-xl">EU-Streitschlichtung</h2>
+        <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit.</p>
     </section>
 </main>
-
-<style>
-    /* Add your custom styles here */
-</style>

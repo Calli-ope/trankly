@@ -8,9 +8,9 @@
         "1. Komfort",
         "2. Ausstattung",
         "3. Geschwindigkeit",
-        "4. Strecken",
+        "4. Streckennetz",
         "5. Service",
-        "6. Preis"
+        "6. Preis der Tickets"
     ];
 </script>
 
@@ -18,9 +18,9 @@
     <section>
         <div class="flex flex-col items-center leading-loose">
             <div class="gap-1 flex flex-col items-center my-8">
-                <p class="text-xl font-semibold text-center">
-                In diesem Ranking werden die besten <br/> Hochgeschwindigkeitszüge nach den folgenden Kriterien bewertet:
-                </p>
+                <h1 class="text-2xl font-semibold text-center">
+                Die Bewertung des Rankings <br/> findet nach folgenden Kriterien statt:
+                </h1>
             </div>
             <Carousel.Root
             plugins={[plugin]}
@@ -50,10 +50,10 @@
 
     <section class="max-w-md mx-auto bg-slate-500 rounded-xl shadow-md md:max-w-2xl transition-transform transform hover:scale-105 my-8">
         <div class="md:flex p-5">
-          <div class="p-8">
-            <div class="uppercase tracking-wide text-md text-violet-950 font-semibold"><i class="fa-solid fa-exclamation fa-bounce mr-1" style="color: #f84407;"></i>Disclaimer</div>
-              <p class="mt-2 text-slate-950">Das Ranking basiert ausschließlich auf eigenen Erfahrungen und erhebt keinen Anspruch auf Vollständigkeit.</p>
-          </div>
+            <div class="p-8">
+                <div class="uppercase tracking-wide text-md text-violet-950 font-semibold"><i class="fa-solid fa-exclamation fa-bounce mr-1" style="color: #f84407;"></i>Disclaimer</div>
+                <p class="mt-2 text-slate-950">Das Ranking basiert ausschließlich auf eigenen Erfahrungen und erhebt keinen Anspruch auf Vollständigkeit.</p>
+            </div>
         </div>
-      </section>
+    </section>
 </main>

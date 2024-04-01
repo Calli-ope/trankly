@@ -4,17 +4,16 @@
     
 <main class="flex flex-col min-h-screen">
   <section id="/" class="flex flex-col items-center justify-center pt-10">
-    <div class="flex flex-col items-center leading-loose">
-      <h2 class="font-semibold text-3xl text-center mb-5">
+      <img src="/logo.svg" alt="train" class="h-80 rounded-3xl"/>
+      <h2 class="font-semibold text-4xl text-center my-10">
         Die <span class="hover:text-amber-300 ">ultimative </span> Plattform <br/> für Zugfans und Reisende!
       </h2>
-      <img src="/logo.svg" alt="train" class="w-40 h-40 sm:w-60 sm:h-60 rounded-3xl"/>
-    </div>
   </section>
 
   <section class="flex flex-col items-center">
-    <hr class="w-48 h-1 mx-auto my-6 border-0 rounded md:my-6 bg-gray-700">
-    <Info href="/ranking" link="Zum Ranking &rarr;" />
-    <Info href="/map" link="Zur Karte &rarr;" />
+    <hr class="w-96 h-1 mx-auto border-0 rounded mb-5 bg-gray-700">
+    <Info href="/ranking" text="Zum Ranking der besten europäischen Züge &rarr;" />
+    <Info href="/map" text="Zur Karte &rarr;" />
+    <Info href="/about" text="Über uns &rarr;" />
   </section>
 </main>

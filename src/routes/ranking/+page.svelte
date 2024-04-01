@@ -29,9 +29,9 @@
 <main class="flex flex-col min-h-screen">
   <SideBar {isOpen} {toggleSidebar} />
   <div class="flex flex-col items-center leading-loose">
-    <h2 class="font-semibold text-2xl text-center mt-10 mb-5">
-      Ranking der 5 besten Hochgeschwindigkeitszüge!
-    </h2>
+    <h1 class="font-semibold text-2xl text-center mt-10 mb-5">
+      Es sollen die 5 besten Hochgeschwindigkeitszüge in Europa mit dem ersten Platz beginnend geranked werden.
+    </h1>
   </div>
   <div class="{`main-content transition-all duration-300 ${isOpen ? 'open' : ''}`}">
     <section id="tgv" class="flex flex-col items-center justify-center">
@@ -49,7 +49,7 @@
           <PhotoWrapper src={ranking[0].photo2} alt="Innenraum TGV" />
         {/if}
       </div>
-      <Info href="https://www.sncf-connect.com/de-de/tgv-inoui-quer-europa" link="Weitere Informationen zum Zug &rarr;" />
+      <Info href="https://www.sncf-connect.com/de-de/tgv-inoui-quer-europa" text="Weitere Informationen zum Zug &rarr;" />
     </section>
 
     <section id="eurostar" class="flex flex-col items-center justify-center">
@@ -64,7 +64,7 @@
           <Panel title="" content={ranking[1].description3}/>
         {/if}
       </div>
-      <Info href="https://www.eurostar.com/de-de/zug" link="Weitere Informationen zum Zug &rarr;"/>
+      <Info href="https://www.eurostar.com/de-de/zug" text="Weitere Informationen zum Zug &rarr;"/>
     </section>
 
     <section id="sbb" class="flex flex-col items-center justify-center">
@@ -82,7 +82,7 @@
           <PhotoWrapper src={ranking[0].photo2} alt="Innenraum TGV" />
         {/if}
       </div>
-      <Info href="https://www.sncf-connect.com/de-de/tgv-inoui-quer-europa" link="Weitere Informationen zum Zug &rarr;" />
+      <Info href="https://www.sncf-connect.com/de-de/tgv-inoui-quer-europa" text="Weitere Informationen zum Zug &rarr;" />
     </section>
 
     <section id="frecce" class="flex flex-col items-center justify-center">
@@ -97,7 +97,7 @@
           <Panel title="" content={ranking[1].description3}/>
         {/if}
       </div>
-      <Info href="https://www.eurostar.com/de-de/zug" link="Weitere Informationen zum Zug &rarr;" />
+      <Info href="https://www.eurostar.com/de-de/zug" text="Weitere Informationen zum Zug &rarr;" />
     </section>
 
     <section id="ice" class="flex flex-col items-center justify-center mb-7">
@@ -115,7 +115,7 @@
           <PhotoWrapper src={ranking[0].photo2} alt="Innenraum TGV" />
         {/if}
       </div>
-      <Info href="https://www.sncf-connect.com/de-de/tgv-inoui-quer-europa" link="Weitere Informationen zum Zug &rarr;" />
+      <Info href="https://www.sncf-connect.com/de-de/tgv-inoui-quer-europa" text="Weitere Informationen zum Zug &rarr;" />
     </section>
   </div>
 </main>
