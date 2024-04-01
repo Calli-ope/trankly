@@ -1,6 +1,6 @@
 export interface RankingData {
     place: number;
-    titel: string;
+    title: string;
     description1: string;
     description2: string;
     description3: string;
