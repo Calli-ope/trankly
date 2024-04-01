@@ -10,7 +10,7 @@
 <header class={'sticky z-[10] top-0 duration-200 grid grid-cols-3 ' 
     + (y > 0 ? ' py-3 dark:bg-gray-950 dark:border-gray-900 bg-gray-400 border-gray-300 shadow-md rounded-lg ' : ' py-6 bg-transparent border-transparent')}>
     <a href="/" class="col-start-2 flex items-center justify-center">
-        <h1 class="font-extrabold dark:text-white text-black text-4xl">Trankly</h1>
+        <h1 class="font-extrabold dark:text-amber-300 text-emerald-600 text-4xl">Trankly</h1>
     </a>
     <div class="col-span-1 flex justify-end px-5 rounded-lg">
         <Button on:click={toggleMode} variant="secondary" size="icon">

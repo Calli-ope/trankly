@@ -30,7 +30,7 @@
   <SideBar {isOpen} {toggleSidebar} />
   <div class="flex flex-col items-center leading-loose">
     <h1 class="font-semibold text-2xl text-center mt-10 mb-5">
-      Es sollen die 5 besten Hochgeschwindigkeitszüge in Europa mit dem ersten Platz beginnend geranked werden.
+      Die 5 besten Hochgeschwindigkeitszüge in Europa!
     </h1>
   </div>
   <div class="{`main-content transition-all duration-300 ${isOpen ? 'open' : ''}`}">
