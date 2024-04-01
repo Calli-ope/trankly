@@ -3,7 +3,7 @@
 </script>
 
 <main>
-    <h1 class="font-bold text-3xl text-center">Datenschutz</h1>
+    <h1 class="font-bold text-3xl text-center mt-5">Datenschutz</h1>
 
     <section class="my-5">
         <h2 class="font-bold text-xl">Verantwortlicher</h2>

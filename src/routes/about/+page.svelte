@@ -15,7 +15,7 @@
 </script>
 
 <main>
-    <h1 class="font-bold text-3xl text-center">About</h1>
+    <h1 class="font-bold text-3xl text-center mt-5">About</h1>
 
     <section class="max-w-md mx-auto bg-slate-400 rounded-xl shadow-md md:max-w-2xl transition-transform transform hover:scale-105 my-8">
         <div class="md:flex p-5">
@@ -58,10 +58,10 @@
             <Carousel.Next />
             </Carousel.Root>
         </div>
-        <hr class="w-96 h-1 mx-auto border-0 rounded my-5 bg-gray-700">
+        <hr class="w-96 h-1 mx-auto border-0 rounded my-14 bg-gray-700">
     </section>
 
-    <section class="max-w-md mx-auto bg-slate-600 rounded-xl shadow-md md:max-w-2xl transition-transform transform hover:scale-105 my-8">
+    <section class="max-w-md mx-auto bg-slate-600 rounded-xl shadow-md md:max-w-2xl transition-transform transform hover:scale-105 mb-5">
         <div class="md:flex p-5">
             <div class="p-8">
                 <div class="uppercase tracking-wide text-md text-violet-500 font-semibold"><i class="fa-solid fa-exclamation fa-bounce mr-1" style="color: #f84407;"></i>Disclaimer</div>
