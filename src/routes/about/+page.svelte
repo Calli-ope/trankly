@@ -16,7 +16,6 @@
 
 <main class="flex flex-col min-h-screen">
     <h1 class="font-bold text-3xl text-center my-5">About</h1>
-
     <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
         <section class="max-w-md mx-auto bg-slate-400 rounded-xl shadow-md md:max-w-2xl transition-transform transform hover:scale-105 my-4">
             <div class="md:flex p-5">
