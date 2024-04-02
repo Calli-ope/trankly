@@ -35,7 +35,7 @@
   </div>
   <div class="{`main-content transition-all duration-300 ${isOpen ? 'open' : ''}`}">
     <section id="tgv" class="flex flex-col items-center justify-center">
-      <hr class="w-48 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700">
+      <hr class="w-96 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700">
       <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
         {#if ranking[0]}
           <Panel title={ranking[0].title} content={ranking[0].description1}/>
@@ -53,7 +53,7 @@
     </section>
 
     <section id="eurostar" class="flex flex-col items-center justify-center">
-      <hr class="w-48 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700">
+      <hr class="w-96 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700">
       <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
         {#if ranking[1]}
           <LogoWrapper src={ranking[1].logo1} alt="Logo Eurostar" />
@@ -68,7 +68,7 @@
     </section>
 
     <section id="sbb" class="flex flex-col items-center justify-center">
-      <hr class="w-48 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700">
+      <hr class="w-96 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700">
       <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
         {#if ranking[0]}
           <Panel title={ranking[0].title} content={ranking[0].description1}/>
@@ -86,7 +86,7 @@
     </section>
 
     <section id="frecce" class="flex flex-col items-center justify-center">
-      <hr class="w-48 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700">
+      <hr class="w-96 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700">
       <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
         {#if ranking[1]}
           <LogoWrapper src={ranking[1].logo1} alt="Logo Eurostar" />
@@ -101,7 +101,7 @@
     </section>
 
     <section id="ice" class="flex flex-col items-center justify-center mb-7">
-      <hr class="w-48 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700">
+      <hr class="w-96 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700">
       <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
         {#if ranking[0]}
           <Panel title={ranking[0].title} content={ranking[0].description1}/>

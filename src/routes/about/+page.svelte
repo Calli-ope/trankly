@@ -9,29 +9,60 @@
         "2. Ausstattung",
         "3. Geschwindigkeit",
         "4. Streckennetz",
-        "5. Service",
+        "5. Service an Bord",
         "6. Preis der Tickets"
     ];
 </script>
 
-<main>
-    <h1 class="font-bold text-3xl text-center mt-5">About</h1>
+<main class="flex flex-col min-h-screen">
+    <h1 class="font-bold text-3xl text-center my-5">About</h1>
 
-    <section class="max-w-md mx-auto bg-slate-400 rounded-xl shadow-md md:max-w-2xl transition-transform transform hover:scale-105 my-8">
-        <div class="md:flex p-5">
-            <div class="p-8">
-                <div class="uppercase tracking-wide text-md text-violet-950 font-semibold"><i class="fa-solid fa-info-circle fa-bounce mr-1" style="color: #f84407;"></i>Über uns</div>
-                <p class="mt-2 text-slate-950">Nach vielen Zugreisen quer durch Europa, haben wir beschlossen, verschiedene Hochgeschwindigkeitszüge zu bewerten und zu vergleichen. 
-                    <br> Dabei haben wir uns für Hochgeschwindigkeitszüge entschieden, da diese diese die Flagschiffe unter den aktuell verkerenden Zügen sind.</p>
+    <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
+        <section class="max-w-md mx-auto bg-slate-400 rounded-xl shadow-md md:max-w-2xl transition-transform transform hover:scale-105 my-4">
+            <div class="md:flex p-5">
+                <div class="p-8">
+                    <div class="uppercase tracking-wide text-md text-violet-500 font-semibold">Über uns</div>
+                    <p class="mt-2 text-slate-950">Nach vielen Zugreisen quer durch Europa, haben wir beschlossen, verschiedene Hochgeschwindigkeitszüge zu bewerten und zu vergleichen. 
+                        <br> Dabei haben wir uns für Hochgeschwindigkeitszüge entschieden, da diese diese die Flagschiffe unter den aktuell verkerenden Zügen darstellen.</p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <section class="max-w-md mx-auto bg-slate-500 rounded-xl shadow-md md:max-w-2xl transition-transform transform hover:scale-105 my-4">
+            <div class="md:flex p-5">
+                <div class="p-8">
+                    <div class="uppercase tracking-wide text-md text-violet-950 font-semibold">Unsere Mission</div>
+                    <p class="mt-2 text-white">Wir möchten Reisenden und Zugfans eine Plattform bieten, auf der sie sich über die besten europäischen Züge informieren können.
+                        <br> Dabei ist unsere Vision, die ultimative Plattform für Zugfans und Reisende zu schaffen, auf der sie sich über die besten europäischen Züge informieren können.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-md mx-auto bg-slate-500 rounded-xl shadow-md md:max-w-2xl transition-transform transform hover:scale-105 my-4">
+            <div class="md:flex p-5">
+                <div class="p-8">
+                    <div class="uppercase tracking-wide text-md text-violet-950 font-semibold">Unser Team</div>
+                    <p class="mt-2 text-white">Unser Team besteht aus Zugfans und Reisenden, die sich regelmäßig über die neuesten Entwicklungen im Bereich der Hochgeschwindigkeitszüge informieren.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-md mx-auto bg-slate-400 rounded-xl shadow-md md:max-w-2xl transition-transform transform hover:scale-105 my-4">
+            <div class="md:flex p-5">
+                <div class="p-8">
+                    <div class="uppercase tracking-wide text-md text-violet-500 font-semibold">Unser Name</div>
+                    <p class="mt-2 text-black">Der Name 'Trankly' setzt sich aus den Wörtern 'Train' und 'Rank' zusammen, die die Kerntätigkeiten unseres Produktes beschreiben.</p>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <section>
         <div class="flex flex-col items-center leading-loose">
+            <hr class="w-96 h-1 mx-auto border-0 rounded my-14 bg-gray-700">
             <div class="gap-1 flex flex-col items-center my-5">
-                <h1 class="text-xl font-semibold text-center">
-                Die Bewertung des Rankings <br/> findet nach folgenden Kriterien statt:
+                <h1 class="text-3xl font-semibold text-center">
+                Bewertungskriterien
                 </h1>
             </div>
             <Carousel.Root
