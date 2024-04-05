@@ -13,11 +13,18 @@
                 <span class="self-center text-2xl font-semibold dark:text-white text-black">Ranking</span>
             </a>
             <ul class="space-y-2 font-medium">
-                <SideBarItem href="#tgv" title="1. TGV" />
-                <SideBarItem href="#eurostar" title="2. Eurostar" />
-                <SideBarItem href="#sbb" title="3. Giruno" />
+                <SideBarItem href="#personenwagen" title="7. Personenwagen" />
+                <SideBarItem href="#ice" title="6. ICE" />
+                <SideBarItem href="#enterprise" title="5. Enterprise" />
                 <SideBarItem href="#frecce" title="4. Frecciarossa" />
-                <SideBarItem href="#ice" title="5. ICE" />
+                <SideBarItem href="#bernina" title="3. Bernina-Express" />
+                <SideBarItem href="#eurostar" title="2. Eurostar" />
+                <SideBarItem href="#tgv" title="1. TGV" />
+                <hr class="w-52 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-gray-700">
+                <div class="font-normal">
+                    <SideBarItem href="/map" title="Zur Karte" />
+                    <SideBarItem href="/about" title="Über uns" />
+                </div>
             </ul>
         </div>
     </div>

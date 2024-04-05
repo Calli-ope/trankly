@@ -1,25 +1,78 @@
 {
   "rankings": [
     {
-      "place": 1,
-      "title": "1. TVG",
-      "description1": "Der von der französischen Eisenbahngesellschaft SNCF betriebene TGV (französisch: train á grande vitesse) landet auf dem 1. Platz des Rankings, da er mich insgesamt am meisten überzeugt. Das Hochgeschwindigkeitszugsystem in Frankreich wurde 1981 eingeführt zeichnet sich durch sehr hohe Geschwindigkeiten mit bis zu 320 km/h aus. Diese werden auf extra für den TGV errichteten Hochgeschwindigkeitsstrecken erreicht, die alle großen Städte wie Paris oder Lyon miteinander verbinden.",
-      "description2": "Die Züge sind aerodynamisch gestaltet und werden durch elektrische Triebköpfe angetrieben. Das TGV-Netzwerk verbindet Städte und Regionen in Frankreich und erstreckt darüber hinaus sogar über die Grenzen nach Belgien, Deutschland, der Schweiz, Luxemburg, Spanien und Italien.",
-      "description3": "Die Hochgeschwindigkeitszüge bieten Passagieren nicht nur eine effiziente Möglichkeit, große Entfernungen zurückzulegen, sondern auch Komfort und Annehmlichkeiten an Bord. Die Sitze sind sehr bequem und bieten viel Platz für die Beine. Die Kopfstützen sind verstellbar und die Armlehnen lassen sich hochklappen.",
-      "photo1": "tgv.jpg",
-      "photo2": "tgv2.jpg",
-      "logo1": "Logo-SNCF.png",
-      "logo2": "Logo_TGV_inOui.png"
+      "place": 7,
+      "title": "7. klassische Personenwagen",
+      "description1": "Die klassischen Personenwagen sind die älteste Form des Schienenverkehrs und landen auf dem letzten Platz des Rankings. Heutzutage wurden sie in vielen Ländern bereits durch modernere Triebzüge ersetzt, finden aber u.a. in Slowenien, Kroatien, Ungarn und der Slowakei noch große Anwendung, z.B. auf Strecken zwischen Budapest, Zagreb und Ljubljana.",
+      "description2": "Sie bestehen aus mehreren Waggons, die durch Kupplungen miteinander verbunden sind und von einer Elektro- oder Diesel-Lok gezogen bzw. geschoben werden. Die Waggons bieten Sitzplätze in verschiedenen Klassen, darunter die 1. Klasse, 2. Klasse und Abteile für Schlafwagen. Besonders bei Nachtzügen sind diese Konfigurationen noch weit verbreitet.",
+      "description3": "Die klassischen Personenwagen sind in der Regel langsamer und weniger komfortabel als moderne Hochgeschwindigkeitszüge. Sie bieten jedoch eine kostengünstige Möglichkeit, längere Strecken zurückzulegen und sind oft mit Abteilen ausgestattet, die Privatsphäre und Ruhe bieten.",
+      "photo1": "personenwagen1.jpg",
+      "photo2": "personenwagen2.jpg",
+      "logo1": "SZ_logo.png",
+      "logo2": "hzpp_logo.png"
+    },
+    {
+      "place": 6,
+      "title": "6. ICE",
+      "description1": "Der Intercity-Express (ICE) ist ein Hochgeschwindigkeitszug, der von der Deutschen Bahn betrieben wird und auf dem 6. Platz des Rankings landet. Der ICE wurde 1991 eingeführt und ist seitdem zu einem wichtigen Bestandteil des deutschen Schienennetzes geworden.",
+      "description2": "Die Züge erreichen Geschwindigkeiten von bis zu 300 km/h und verbinden die wichtigsten Städte Deutschlands miteinander. Die ICE-Züge bieten Reisenden Komfort und Annehmlichkeiten wie WLAN, Steckdosen, Bordrestaurants und großzügige Sitzplatzarrangements.",
+      "description3": "Der ICE verkehrt auch in Nachbarländer wie die Niederlande, Belgien, Frankreich, Österreich und die Schweiz und bietet eine schnelle und effiziente Verbindung zwischen den europäischen Ländern. Leider sind die Züge häufig unpünktlich und damit kaum zuverlässig, weshalb der ICE nur auf dem 6. Platz des Rankings landet.",
+      "photo1": "ICE1.jpg",
+      "photo2": "ICE2.jpg",
+      "logo1": "DB_logo.png"
+    },
+    {
+      "place": 5,
+      "title": "5. Enterprise",
+      "description1": "Der Enterprise ist ein Hochgeschwindigkeitszug, der von der irischen Eisenbahngesellschaft Irish Rail und der nordirischen Eisenbahngesellschaft Translink betrieben wird und auf dem 5. Platz des Rankings landet. Der Enterprise verbindet die irische Hauptstadt Dublin mit der nordirischen Hauptstadt Belfast und bietet eine schnelle und effiziente Verbindung zwischen den beiden Städten.",
+      "description2": "Die Züge erreichen Geschwindigkeiten von bis zu 145 km/h und bieten Reisenden Komfort und Annehmlichkeiten wie WLAN, Steckdosen, Bordrestaurants und großzügige Sitzplatzarrangements. Der Enterprise ist eine beliebte Wahl für Geschäftsreisende und Urlauber, die schnell und bequem zwischen Irland und Nordirland reisen möchten.",
+      "description3": "Der Zug zeichnet sich besonders durch seine sehr bequemen Sitze und die besondere Geschichte der Strecke aus. So musste während des Nordirlandkonfliktes der Betrieb über mehrere Jahre eingestellt werden. Dieser läuft nun aber seid vielen Jahren störungsfrei, sodass Investitionen in einen Ausbau der Strecke stattfinden konnten.",
+      "photo1": "Enterprise1.jpg",
+      "photo2": "Enterprise2.jpg",
+      "logo1": "Irish-Rail_logo.png",
+      "logo2": "NI-Railways_logo.svg"
+    },
+    {
+      "place": 4,
+      "title": "4. Frecciarossa",
+      "description1": "Der Frecciarossa (deutsch für 'roter Pfeil') ist ein Hochgeschwindigkeitszug, der von der italienischen Staatsbahn Trenitalia betrieben wird und auf dem 4. Platz des Rankings landet.",
+      "description2": "Der Frecciarossa verbindet die wichtigsten Städte Italiens Rom, Mailand, Florenz, Venedig und Neapel miteinander und bietet eine schnelle und effiziente Verbindung zwischen ihnen. Die Züge erreichen Geschwindigkeiten von bis zu 300 km/h und bieten Reisenden Komfort und Annehmlichkeiten wie WLAN, Steckdosen, Bordrestaurants und großzügige Sitzplatzarrangements. Es gibt mehrere Zugggenerationen, darunter den Frecciarossa 1000, den Frecciarossa 500 und den Frecciarossa 400. Jede dieser Züge bietet ein einzigartiges Reiseerlebnis.",
+      "description3": "Die Züge führen vier Wagenklassen: Standard, Premium, Business und Executive. Die Sitze sind besonders in der Business und Executive Class sehr bequem und bieten viel Platz für die Beine. Die Kopfstützen sind verstellbar und die Armlehnen lassen sich hochklappen. Der Frecciarossa verkehrt auch bis nach Frankreich, wodurch er eine wichtige Verbindung zwischen den beiden europäischen Ländern darstellt.",
+      "photo1": "Frecce1.jpg",
+      "photo2": "Frecce2.jpg",
+      "logo1": "Trenitalia_logo.svg"
+    },
+    {
+      "place": 3,
+      "title": "3. Bernina Express",
+      "description1": "Der Bernina Express ist ein Panoramazug, der von der Rhätischen Bahn (RhB) betrieben wird und auf dem 3. Platz des Rankings landet. Der Bernina Express verbindet die Schweizer Städte Chur und St. Moritz mit dem italienischen Tirano und bietet Reisenden eine atemberaubende Fahrt durch die Alpen. Die Strecke führt über den Berninapass, der zu den höchsten Alpenpässen Europas gehört und spektakuläre Ausblicke auf die umliegende Landschaft bietet.",
+      "description2": "Die Züge erreichen Geschwindigkeiten von bis zu 90 km/h und fahren über spektakuläre Brücken, durch Tunnel und entlang steiler Abhänge. Die Strecke ist eine der spektakulärsten Zugfahrten der Welt und wurde von der UNESCO als Weltkulturerbe ausgezeichnet. Der Bernina Express verkehrt das ganze Jahr über und bietet Reisenden die Möglichkeit, die Schönheit der Alpen zu jeder Jahreszeit zu erleben.",
+      "description3": "Der Bernina Express ist für seine Panoramafenster bekannt, die den Passagieren eine unvergleichliche Aussicht auf die Alpen und die umliegende Natur bieten. Die Züge sind komfortabel und bieten Annehmlichkeiten wie WLAN, Steckdosen, Bordrestaurants und großzügige Sitzplatzarrangements. Der Bernina Express ist eine beliebte Wahl für Touristen, die die Schönheit der Schweizer Alpen erleben möchten.",
+      "photo1": "Bernina1.jpg",
+      "photo2": "Bernina2.jpg",
+      "logo1": "Bernina_logo.jpg",
+      "logo2": "RHB_logo.jpg"
     },
     {
       "place": 2,
       "title": "2. Eurostar",
       "description1": "Auf dem 2. Platz landet der Eurostar, der vor allem wegen seiner außergewöhnlichen Strecke punktet.",
       "description2": "Der Eurostar ist ein Hochgeschwindigkeitszuganbieter, der Europa miteinander verbindet, insbesondere Großbritannien, Frankreich, Belgien und die Niederlande. Der Service wurde 1994 eingeführt und hat sich seitdem zu einer effizienten und beliebten Transportoption für Reisende entwickelt. Die Hauptstrecke des Eurostars verläuft durch den Eurotunnel, der den Ärmelkanal unterquert und Großbritannien mit dem europäischen Festland verbindet. Die Züge fahren von London St. Pancras International ab und erreichen Paris Gare du Nord sowie Brüssel Midi/Zuid in unter 2 Stunden.",
-      "description3": "Der Eurostar zeichnet sich durch seine hohe Geschwindigkeit, Komfort und Zuverlässigkeit aus. Die modernen Züge bieten Reisenden Annehmlichkeiten wie WLAN, Steckdosen, Bordrestaurants und großzügige Sitzplatzarrangements. Dies macht den Eurostar zu einer attraktiven Wahl für Geschäftsreisende und Urlauber, die schnell und bequem zwischen den europäischen Städten reisen möchten.",
+      "description3": "Der Eurostar zeichnet sich durch seine hohe Geschwindigkeit, Komfort und Zuverlässigkeit aus. Die modernen Züge bieten Reisenden Annehmlichkeiten wie WLAN, Steckdosen, Bordrestaurants und großzügige Sitzplatzarrangements. Dies macht den Eurostar zu einer attraktiven Wahl für Geschäftsreisende und Urlauber, die schnell und bequem zwischen den europäischen Hauptstädten reisen möchten.",
       "photo1": "eurostar.jpg",
       "photo2": "eurostar2.jpg",
       "logo1": "Eurostar_logo.png"
+    },
+    {
+      "place": 1,
+      "title": "1. TVG",
+      "description1": "Der von der französischen Eisenbahngesellschaft SNCF betriebene TGV (französisch: train á grande vitesse) landet auf dem 1. Platz des Rankings, da dieser insgesamt am meisten überzeugt. Das Hochgeschwindigkeitszugsystem in Frankreich wurde 1981 eingeführt und zeichnet sich durch sehr hohe Geschwindigkeiten mit bis zu 320 km/h aus. Diese werden auf extra für den TGV errichteten Hochgeschwindigkeitsstrecken erreicht, die alle großen Städte wie Paris oder Lyon miteinander verbinden.",
+      "description2": "Die Züge sind aerodynamisch gestaltet und werden durch elektrische Triebköpfe angetrieben. Das TGV-Netzwerk verbindet Städte und Regionen in Frankreich und erstreckt darüber hinaus sogar über die Grenzen nach Belgien, Deutschland, der Schweiz, Luxemburg und Spanien.",
+      "description3": "Die Hochgeschwindigkeitszüge bieten Passagieren nicht nur eine effiziente Möglichkeit, große Entfernungen zurückzulegen, sondern auch Komfort und Annehmlichkeiten an Bord. Die Sitze sind sehr bequem und bieten viel Platz für die Beine. Die Kopfstützen sind verstellbar und die Armlehnen lassen sich hochklappen.",
+      "photo1": "tgv.jpg",
+      "photo2": "tgv2.jpg",
+      "logo1": "Logo-SNCF.png",
+      "logo2": "Logo_TGV_inOui.png"
     }
   ]
 }
