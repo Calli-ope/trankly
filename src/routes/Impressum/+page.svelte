@@ -44,4 +44,9 @@
         <h2 class="font-bold text-xl">EU-Streitschlichtung</h2>
         <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit.</p>
     </section>
+
+    <section class="my-5">
+        <h2 class="font-bold text-xl">Hinweis</h2>
+        <p>Alle verwendeten Bilder sind entweder mein Eigentum oder gemeinfrei.</p>
+    </section>
 </main>

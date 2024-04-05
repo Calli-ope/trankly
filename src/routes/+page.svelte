@@ -13,7 +13,7 @@
   <section class="flex flex-col items-center">
     <hr class="w-96 h-1 mx-auto border-0 rounded mb-5 bg-gray-700">
     <Info href="/ranking" text="Zum Ranking der besten europäischen Züge &rarr;" />
-    <Info href="/map" text="Zur Karte &rarr;" />
+    <Info href="/map" text="Zur interaktiven Karte &rarr;" />
     <Info href="/about" text="Über uns &rarr;" />
   </section>
 </main>

@@ -5,10 +5,10 @@
 
 ## Installation
 
-1. Firtly naviagte to `cd server` and install all dependencies with `npm install`. \
+1. First navigate to `cd server` and install all dependencies with `npm install`. \
 Then start a development server with `npm run dev`
-2. Visit the Vecel deployment at https://ranking-page.vercel.app/
-3. Or start local development server with `npm run dev`
+2. Visit the Vecel deployment at trankly.vercel.app/ to view the site \
+Or install all dependencies with `npm install` and start a local development server with `npm run dev`
 
 
 ## Building

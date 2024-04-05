@@ -5,12 +5,12 @@
     
     const plugin = Autoplay({ delay: 2000, stopOnInteraction: true });
     let criteria = [
-        "1. Komfort",
-        "2. Ausstattung",
-        "3. Geschwindigkeit",
-        "4. Streckennetz",
-        "5. Service an Bord",
-        "6. Preis der Tickets"
+        "1. Komfort 🧳",
+        "2. Ausstattung 💺",
+        "3. Geschwindigkeit 🚄",
+        "4. Streckennetz 🛤️",
+        "5. Service an Bord 🍽️",
+        "6. Preis der Tickets 💵"
     ];
 </script>
 
@@ -21,8 +21,8 @@
             <div class="md:flex p-5">
                 <div class="p-8">
                     <div class="uppercase tracking-wide text-md text-violet-500 font-semibold">Über uns</div>
-                    <p class="mt-2 text-slate-950">Nach vielen Zugreisen quer durch Europa, haben wir beschlossen, verschiedene Hochgeschwindigkeitszüge zu bewerten und zu vergleichen. 
-                        <br> Dabei haben wir uns für Hochgeschwindigkeitszüge entschieden, da diese diese die Flagschiffe unter den aktuell verkerenden Zügen darstellen.</p>
+                    <p class="mt-2 text-slate-950">Nach vielen Zugreisen quer durch Europa, haben wir beschlossen, Züge aus verschiedenen Ländern zu bewerten und zu vergleichen. 
+                        <br> In unserem Ranking tauchen Züge verschiedener Gattungen auf, um Abwechslung zu garantieren.</p>
                 </div>
             </div>
         </section>
@@ -31,8 +31,7 @@
             <div class="md:flex p-5">
                 <div class="p-8">
                     <div class="uppercase tracking-wide text-md text-violet-950 font-semibold">Unsere Mission</div>
-                    <p class="mt-2 text-white">Wir möchten Reisenden und Zugfans eine Plattform bieten, auf der sie sich über die besten europäischen Züge informieren können.
-                        <br> Dabei ist unsere Vision, die ultimative Plattform für Zugfans und Reisende zu schaffen, auf der sie sich über die besten europäischen Züge informieren können.</p>
+                    <p class="mt-2 text-white">Wir möchten Reisenden und Zugfans eine Plattform bieten, auf der sie sich über die besten europäischen Züge informieren können.</p>
                 </div>
             </div>
         </section>
@@ -41,7 +40,7 @@
             <div class="md:flex p-5">
                 <div class="p-8">
                     <div class="uppercase tracking-wide text-md text-violet-950 font-semibold">Unser Team</div>
-                    <p class="mt-2 text-white">Unser Team besteht aus Zugfans und Reisenden, die sich regelmäßig über die neuesten Entwicklungen im Bereich der Hochgeschwindigkeitszüge informieren.</p>
+                    <p class="mt-2 text-white">Unser Team besteht aus Zugfans und Reisenden, die sich regelmäßig über die neuesten Entwicklungen im Bereich europäischer Züge informieren.</p>
                 </div>
             </div>
         </section>
