@@ -5,9 +5,9 @@
 
 ## Installation
 
-1. First navigate to `cd server` and install all dependencies with `npm install`. \
-2. Then start a development server with `npm run dev`.
-3. Visit the Vecel deployment at [trankly.vercel.app/](https://trankly.vercel.app/) to view the site. \
+1. Navigate to `cd server` and install all dependencies with `npm install`.
+2. Start a development server with `npm run dev`.
+3. Visit the Vecel deployment at [trankly.vercel.app/](https://trankly.vercel.app/) to view the site.
 4. Alternatively open a new Terminal, install all dependencies with `npm install` and start a local development server with `npm run dev`.
 
 
