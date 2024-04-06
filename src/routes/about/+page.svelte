@@ -49,7 +49,7 @@
             <div class="md:flex p-5">
                 <div class="p-8">
                     <div class="uppercase tracking-wide text-md text-violet-500 font-semibold">Unser Name</div>
-                    <p class="mt-2 text-black">Der Name 'Trankly' setzt sich aus den Wörtern 'Train' und 'Rank' zusammen, die die Kerntätigkeiten unseres Produktes beschreiben.</p>
+                    <p class="mt-2 text-black">Der Name 'Trankly' ist eine Wortneuschöpfung aus 'Train' und 'Rank', was die Intention dieser Seite verdeutlicht.</p>
                 </div>
             </div>
         </section>

@@ -8,8 +8,8 @@
     <section class="my-5">
         <h2 class="font-bold text-xl">Verantwortlicher</h2>
         <p>Konrad Martens</p>
-        <p>Trankly Weg 1</p>
-        <p>Berlin</p>
+        <p>Zugweg 1</p>
+        <p>12345 Berlin</p>
     </section>
 
     <section class="my-5">

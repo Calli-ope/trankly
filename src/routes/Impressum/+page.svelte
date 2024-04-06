@@ -8,8 +8,8 @@
     <section class="my-5">
         <h2 class="font-bold text-xl">Angaben gemäß § 5 TMG</h2>
         <p>Trankly</p>
-        <p>Trankly Weg 1</p>
-        <p>Berlin</p>
+        <p>Zugweg 1</p>
+        <p>12345 Berlin</p>
     </section>
 
     <section class="my-5">
@@ -32,7 +32,7 @@
     <section class="my-5">
         <h2 class="font-bold text-xl">Umsatzsteuer-ID</h2>
         <p>Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz</p>
-        <p>DE Ihre USt-IdNr</p>
+        <p>USt-IdNr: 123456789</p>
     </section>
 
     <section class="my-5">
